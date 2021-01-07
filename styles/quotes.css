@@ -1,0 +1,7 @@
+.containerLeft__travelQuotes {
+    flex-basis: 16%;  /* Make each child element the same width */
+    border: 1px solid white;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center;
+}

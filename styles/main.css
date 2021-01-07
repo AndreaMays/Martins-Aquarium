@@ -1,0 +1,32 @@
+@import "./header.css";
+@import "./footer.css";
+@import "./tips";
+@import "./locations.css";
+@import "quotes.css";
+@import "fish.css";
+
+.contetArticle {
+    background-color: aqua;
+}
+
+.contentContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerLeft {
+    flex-basis: 75;
+}
+
+.containerRight {
+    flex-basis: 25%;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/480799.jpg);
+    background-size: cover;
+}
