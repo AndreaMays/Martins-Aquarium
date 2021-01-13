@@ -4,4 +4,28 @@
     padding: 1em;
     margin: 0.5em;
     text-align: center;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.quotes {
+    display: flex; 
+    border: 2px white solid;
+    flex-direction: column-reverse; 
+    align-items: center;
+    flex-basis: 30%;
+    /*align items and border black*/
+    background-color: lightgray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 4);
+    transition: 0.3s;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+
+}
+
+.quotes:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 2);
 }
