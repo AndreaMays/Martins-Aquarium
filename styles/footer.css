@@ -1,9 +1,11 @@
 .contactContainer {
-    display: flex; 
-    border: 1px solid white;
-    padding: 1em;
-    margin: 0.5em;
+    flex-basis: 25%;
+    border: 2px solid white;
     text-align: center;
+    font-size: 10pt;
+    font-weight: bold;
+    justify-content: space-around;
+    color: black;
 }
 
 .socialContainer1 {

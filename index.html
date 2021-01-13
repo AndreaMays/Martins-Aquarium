@@ -9,6 +9,8 @@
 
 </head>
 
+<script type="module" src="scripts/main.js"></script>
+
 <body>
   <main>
     <header>
@@ -16,14 +18,43 @@
       <!--<h1>Martin's Aquarium</h1> used LOGO instead of H1 -->
       <img src="https://www.freelogodesign.org/file/app/client/thumb/4dd61c7c-11a6-43e6-a0d6-730b0558bb90_200x200.png?1610037725108" 
       width="300px" height="300px" alt="Aquarium"alt="Martin's Logo">
-      <!--Can't get "nav" to be where I need it right now 
-        <nav>
-        <a href="fishList">Fish List</a> |
-        <a href="travelQuotes">Travel Quotes</a> |
-      </nav>-->
     </header>
 
-    <section class="contentContainer">
+    <nav class="navBar">
+        <a href="fishList">Fish List</a> |
+        <a href="travelQuotes">Travel Quotes</a>
+        <a href="travelLocations">Travel Locations</a> |
+    </nav>
+
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Document</title>
+
+</head>
+
+<script type="module" src="scripts/main.js"></script>
+
+<body>
+  <main>
+    <header>
+     <!---- NOT LIKING THIS PIC <img src="https://c.files.bbci.co.uk/16ACC/production/_84567829_nmacoralseastank.jpg" width="200px" height="200px" alt="Aquarium">-->
+      <!--<h1>Martin's Aquarium</h1> used LOGO instead of H1 -->
+      <img src="https://www.freelogodesign.org/file/app/client/thumb/4dd61c7c-11a6-43e6-a0d6-730b0558bb90_200x200.png?1610037725108" 
+      width="300px" height="300px" alt="Aquarium"alt="Martin's Logo">
+    </header>
+
+    <nav class="navBar">
+        <a href="fishList">Fish List</a> |
+        <a href="travelQuotes">Travel Quotes</a>
+        <a href="travelLocations">Travel Locations</a> |
+    </nav>
+
+   <!--- <section class="contentContainer">
       <div class="containerLeft">
         <h2 class="fishList">Fish List</h2>
         <article class="containerLeft__fishList contentArticle">
@@ -85,26 +116,87 @@
             <p class="fishCard__diet">Food: algae</p>
             <img src="https://kids.nationalgeographic.com/content/dam/kidsea/kids-core-objects/animals/pufferfish-closeup-cut.ngsversion.1556636497139.adapt.1900.1.jpg" 
             width="100px" height="100px" alt="puff swimming">
-          </div>
+          </div>-->
 
         </article>
         <article class="containerLeft__travelQuotes contentArticle">
          <div class="quoteCard">
             <h2 class="headings">Travel Quotes</h2>
-            <p>"It is better to travel well, than to arrive."(Buddha)</p>
-            <p>"Just keep swimming!" (Dory Fish)</p>
-            <p>"Travel makes us modest, you see what a tiny place you occupy in the world."(Gustave Flaubert)</p>    
+            <p class="quotes">"It is better to travel well, than to arrive."(Buddha)</p>
+            <p class="quotes">"Just keep swimming!" (Dory Fish)</p>
+            <p class="quotes">"Travel makes us modest, you see what a tiny place you occupy in the world."(Gustave Flaubert)</p>    
         </article>
 
         <article class="containerLeft__travelLocations contentArticle">
             <div class="travel">
                <h2 class="headings">Travel Locations</h2>
                <p class="Locations">Vava'u Tonga</p> 
-               <img src="https://www.seabourn.com/content/dam/sbn/inventory-assets/ports/VAV/vav-vavau-tonga.jpg.image.750.563.low.jpg" alt="Tonga">
+               <img class="imgLocations" src="https://www.seabourn.com/content/dam/sbn/inventory-assets/ports/VAV/vav-vavau-tonga.jpg.image.750.563.low.jpg" alt="Tonga">
                <p class="Locations">Watamu, Kenya</p>
-               <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_634,c_fill,g_auto,h_357,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F160112152645-kenya-live-8.jpg" alt="Sea Turtle">
+               <img class="imgLocations" src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_634,c_fill,g_auto,h_357,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F160112152645-kenya-live-8.jpg" alt="Sea Turtle">
                <p class="Locations">Niue Island</p>    
-               <img src="https://images.squarespace-cdn.com/content/v1/53b6ec86e4b09a1fb529c6b8/1444113810756-AGCDH4X772M8DSZPBTQF/ke17ZwdGBToddI8pDm48kG3zKbvSeiyK83VonJw1vY4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcF2EyE_KmpxcZq4Kygad-sBpPsQDaTQWmRT6lsDAeVEGATlP9ZORxAehQBatWHMoU/P8304949.jpg" alt="Underwater">
+               <img class="imgLocations" src="https://images.squarespace-cdn.com/content/v1/53b6ec86e4b09a1fb529c6b8/1444113810756-AGCDH4X772M8DSZPBTQF/ke17ZwdGBToddI8pDm48kG3zKbvSeiyK83VonJw1vY4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcF2EyE_KmpxcZq4Kygad-sBpPsQDaTQWmRT6lsDAeVEGATlP9ZORxAehQBatWHMoU/P8304949.jpg" alt="Underwater">
+           </article>
+
+      </div>
+      <aside class="containerRight">
+          <h2 class="containerRight__tips">Fish Tips</h2>
+          <ul>
+              <li>Keep the Tank Clean</li>
+              <br>
+              <li>Don't over feed your fish</li>
+              <br>
+              <li>"PuffPuffGive" is toxic</li>
+              <br>
+              <li>Fish are slimey</li>
+          </ul>
+      </aside>
+    </section>
+
+    <footer>
+        <div class="contactContainer">
+        <h2 class="socialContainer1">Contact</h2>
+        <!--<div class="container paddingContact-container">
+          <div class="row">
+          <div class="col-md-12">-->
+          <p class="socialContainer">Contact us today to discuss your future fish project!</ p>
+            <a href="www.facebook.com">Facebook</a>
+          
+          <div class="socialContainer">
+          <h3>Phone Number</h3>
+          <p>555-555-1234</p>
+          <h4>Email</h4>
+          <p>fishy@martinsaqua.com</p>
+        </div>
+          
+  
+      </div>
+    </footer>
+
+  </main>
+
+</body>
+
+</html>
+
+        </article>
+        <article class="containerLeft__travelQuotes contentArticle">
+         <div class="quoteCard">
+            <h2 class="headings">Travel Quotes</h2>
+            <p class="quotes">"It is better to travel well, than to arrive."(Buddha)</p>
+            <p class="quotes">"Just keep swimming!" (Dory Fish)</p>
+            <p class="quotes">"Travel makes us modest, you see what a tiny place you occupy in the world."(Gustave Flaubert)</p>    
+        </article>
+
+        <article class="containerLeft__travelLocations contentArticle">
+            <div class="travel">
+               <h2 class="headings">Travel Locations</h2>
+               <p class="Locations">Vava'u Tonga</p> 
+               <img class="imgLocations" src="https://www.seabourn.com/content/dam/sbn/inventory-assets/ports/VAV/vav-vavau-tonga.jpg.image.750.563.low.jpg" alt="Tonga">
+               <p class="Locations">Watamu, Kenya</p>
+               <img class="imgLocations" src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_634,c_fill,g_auto,h_357,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F160112152645-kenya-live-8.jpg" alt="Sea Turtle">
+               <p class="Locations">Niue Island</p>    
+               <img class="imgLocations" src="https://images.squarespace-cdn.com/content/v1/53b6ec86e4b09a1fb529c6b8/1444113810756-AGCDH4X772M8DSZPBTQF/ke17ZwdGBToddI8pDm48kG3zKbvSeiyK83VonJw1vY4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcF2EyE_KmpxcZq4Kygad-sBpPsQDaTQWmRT6lsDAeVEGATlP9ZORxAehQBatWHMoU/P8304949.jpg" alt="Underwater">
            </article>
 
       </div>

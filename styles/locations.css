@@ -6,23 +6,35 @@
     text-align: center;
 }
 
-.headings { /* Headings for both Quote Card and Travel Card*/
-    text-align: center;
-    font-size: 50pt;
-    font-weight: bolder;
-
+.imgLocations {
+    max-width: 500px;
+    border-radius: 5px 5px;
+    align-content: center;
 }
 
-.Locations {
+.headings { /* Headings for both Quote Card and Travel Card*/
     text-align: center;
-    font-size: 20pt;
-    font-weight: bold;
+    font-size: 30pt;
+    font-weight: bolder;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
 }
 
 .Locations {
     flex-basis: 16%;  /* Make each child element the same width */
-    border: 1px solid white;
-    padding: 1em;
-    margin: 0.5em;
+    display: flex;
+    border: 2px solid white;
+    padding: 0.1em;
+    margin: 1.0em;
+    flex-shrink: initial;
     text-align: center;
-}
+    background-color: lightgray;
+    border-radius: 5px 5px;
+    font-size: 20pt;
+    font-weight: bold;
+    margin: 0 -5px;
+    align-items: center;
+    justify-content: center;
+    }
