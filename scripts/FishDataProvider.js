@@ -2,51 +2,58 @@ const fishCollection = [
     {
         name: "Bart",
         food: "crustaceans",
-        type: "clown",
-        color: "blue/silver"
+        species: "clown",
+        location: "Brazil",
+        length: 8 
     },
     {
         name: "Harley",
         food: "algae",
-        type: "common carp",
-        color: "silver"
+        species: "common carp",
+        location: "Hawaii",
+        length: 6 
     },
     {
         name: "Dory",
         food: "pellets",
-        type: "blue tang",
-        color: "roayl blue"
+        species: "blue tang",
+        location: "Australia",
+        length: 5 
     },
     {
         name: "Nemo",
         food: "krill",
-        type: "clown",
-        color: "orange/white"
+        species: "clown",
+        location: "Great Barrier Reef",
+        length: 5 
     },
     {
         name: "Blinky",
         food: "Holacanthus ciliaris",
-        type: "queen angel fish",
-        color: "blue/yellow"
+        species: "queen angel fish",
+        location: "East Africa",
+        length: 4 
     },
     {
         name: "Mary",
         food: "algae",
-        type: "Bluebanded Goby",
-        color: "orange w/blue stripes"
+        species: "Bluebanded Goby",
+        location: "Niue",
+        length: 3 
     },
     {
         name: "Puff-Puff-Give",
         food: "crustaceons",
-        type: "puffer fish",
-        color: "gray"
+        location: "Panama",
+        length: 10 
     },
     {
         name: "Zebra",
         food: "crustaceons",
-        type: "Chaetodon striatus",
-        color: "black/white"
-    },
+        species: "Chaetodon striatus",
+        location: "Hawaii",
+        length: 5 
+    }
 ]
 
 
