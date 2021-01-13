@@ -9,7 +9,8 @@ const fishCollection = [
         name: "Harley",
         food: "algae",
         type: "common carp",
-        color: "silver"
+        color: "silver",
+        image: "https://oceana.org/sites/default/files/styles/lightbox/public/14_2.jpg?itok=f2JIrIAw"
     },
     {
         name: "Dory",
