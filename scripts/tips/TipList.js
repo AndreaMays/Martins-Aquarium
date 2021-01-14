@@ -10,7 +10,7 @@ export const TipList = () => {
     let tipsHTMLRepresentations = ""
     for (const tip of tips) {
 
-        locationHTMLRepresentations += Tip(tip)
+        tipsHTMLRepresentations += Tip(tip)
 
     }
 

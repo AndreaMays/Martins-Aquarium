@@ -4,7 +4,7 @@ import { Location } from './Location.js'
 
 export const LocationList = () => {
     
-    const contentElement = document.querySelector(".containerLeft__travelLocation")
+    const contentElement = document.querySelector(".containerLeft__travelLocations")
     const locations = useLocation()
 
     let locationHTMLRepresentations = ""

@@ -1,18 +1,18 @@
 const tipsCollection = [
     {
-        Tip: "Keep the Tank Clean",
+        words: "Keep the Tank Clean",
     },     
     {
-        Tip: "Don't over feed your fish",
+        words: "Don't over feed your fish",
     },
     {
-        Tip: " 'PuffPuffGive' is toxic",
+        words: " 'PuffPuffGive' is toxic",
     },
     {
-        Tip: "Fish are slimey",
+        words: "Fish are slimey",
     },
     {
-        Tip: "Don't kill your fish"
+        words: "Don't kill your fish"
     }
 ]
 
