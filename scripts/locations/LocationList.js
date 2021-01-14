@@ -1,19 +1,23 @@
-/**
- *  FishList which renders individual fish objects as HTML
- */
+import { useLocation } from './LocationsDataProvider.js'
+import { Location } from './Location.js'
 
-// TODO: Import `useFish` from the data provider module
 
 export const LocationList = () => {
-
-    // Get a reference to the `<article class="content">` element
-    const contentElement = document.querySelector(".containerLeft__travelLocations")
+    
+    const contentElement = document.querySelector(".containerLeft__travelLocation")
     const locations = useLocation()
 
-    // Add to the existing HTML in the content element
+    let locationHTMLRepresentations = ""
+    for (const location of locations) {
+
+        locationHTMLRepresentations += Location(location)
+
+    }
+
+    // Add a section, and all of the fish to the DOM
     contentElement.innerHTML += `
         <article class="LocationList">
-            All the locations go here!
+            ${locationHTMLRepresentations}
         </article>
     `
 }
